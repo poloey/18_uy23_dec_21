@@ -1,0 +1,19 @@
+///
+<?php for ($i = 0; $i < 4; $i++) { ?>
+<li><?php echo  $fruits[$i] ?></li>
+<?php }; ?>
+
+///
+<?php 
+
+for($i = 0; $i < 4; $i++) {
+  echo "<li>" . $fruits[$i] . "</li>";
+}
+
+?>
+
+/////
+
+<?php for($i = 0; $i < 4; $i++) : ?>
+<li><?php echo $fruits[$i] ?></li>
+<?php endfor; ?>
