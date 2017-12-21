@@ -17,3 +17,7 @@ for($i = 0; $i < 4; $i++) {
 <?php for($i = 0; $i < 4; $i++) : ?>
 <li><?php echo $fruits[$i] ?></li>
 <?php endfor; ?>
+
+
+/// instantiate empty class
+$todo1 = new stdClass();

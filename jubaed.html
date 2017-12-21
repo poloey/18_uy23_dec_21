@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jubaed</title>
+</head>
+<body>
+<script>
+  function fullName (f, l) {
+    this.firstName = f;
+    this.lastName = l;
+    this.fullName =  function {
+      return this.firstName + this.lastName;
+    }
+  }
+
+  var jubaed = new fullName('Jubaed', 'Hasan');
+
+</script>
+</body>
+</html>
